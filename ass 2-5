@@ -1,0 +1,12 @@
+1>.cluster is the logical unit of file storage on a hard disk which is managed by the computer's operating system.
+If a file is stored on hard disk it takes one cluster and it can be scattered among different locations on the hard disk.
+The clusters associated with a file are kept track of in the hard disk's file allocation table (FAT).
+
+Hadoop cluster is a special type of cluster which is designed specifically for storing and analyzing huge amounts of unstructured data
+in a distributed pattern.It run Hadoop's open source distributed processing software on low-cost commodity computers.
+
+2>. Storage of Nodes,which is simply low commodity computer is called rack.
+A rack is a collection of 30 or 40 nodes that are physically stored close together and are all connected to the same network.
+
+Rack arrangement in hadoop cluster ia like different racks having n number of node merges at same bandwidth and these racks have slave node
+and master node which are responsible for prcoessing and storage of bigdata.
